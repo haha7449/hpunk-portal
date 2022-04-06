@@ -1,0 +1,93 @@
+.or-item {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #f0f0f0;
+
+  .ori-top {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+
+    .ori-info {
+      flex: 1;
+      display: flex;
+      align-items: center;
+
+      .ori-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+
+        .ori-img,
+        .ori-name,
+        .ori-size {
+          margin-right: 10px;
+        }
+
+        .ori-img {
+          width: 100px;
+          height: 100px;
+          background-color: #00000050;
+        }
+
+        .ori-name {
+          width: 200px;
+          padding: 10px 0;
+        }
+
+        .ori-size {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding: 10px 0;
+        }
+      }
+    }
+
+    .ori-detail {
+      width: 500px;
+      background-color: #00000050;
+      display: flex;
+      justify-content: space-between;
+
+      .ori-price,
+      .ori-number,
+      .ori-prices,
+      .ori-count {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .ori-bottom{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .ori-msg{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        .ori-msg-title{
+            width: 100px;
+            margin: 0 auto;
+        }
+
+        .ori-msg-content{
+            flex: 1;
+        }
+    }
+    
+    .ori-all-money{
+        width: 500px;
+    }
+  }
+}
